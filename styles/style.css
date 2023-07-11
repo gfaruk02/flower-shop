@@ -110,7 +110,7 @@
 
 /* occasions section */
 .occasions-container{
-    margin: 20px 130px 100px 130px;
+    margin: 0px 130px 100px 130px;
     padding: 40px 0px;
     text-align: center;
 }
@@ -120,12 +120,7 @@
     align-items: center;
     gap: 15px;
 }
-.occasions-container > .main-title { 
-    padding-bottom: 15px;
-}
-.occasions-container > .main-description { 
-    padding: 0px 110px 50px 110px;
-}
+
 .occasions-content-box {
     background-color: rgba(218, 217, 217, 0.2);
     width: 250px;
