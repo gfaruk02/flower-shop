@@ -151,3 +151,24 @@
     height: 350px;
   
 }
+
+/* social media section  */
+.social-container {
+    margin: 150px 150px 120px 150px;
+    text-align: center;
+}
+.social-container > .main-description {
+    padding: 0px 160px;
+
+}
+
+.social-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+.social-content img {
+    width: 260px;
+}
