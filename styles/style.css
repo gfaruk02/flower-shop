@@ -40,13 +40,16 @@
 }
 
 .btn-primary {
-    padding: 18px 36px;
+    padding: 16px 36px;
     background-color: rgb(235, 68, 110);
     color: white;
     border: none;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
+}
+.btn-primary:hover {
+    background-color: rgb(218, 3, 57);
 }
 .header-photo {
     padding: 50px 150px 0 0;
@@ -174,7 +177,7 @@
 
 /* Latest Deals section  */
 .latest-deals-container {
-    margin: 0px 140px 50px 140px;
+    margin: 0px 140px 30px 140px;
     text-align: center;
 }
 
@@ -215,3 +218,32 @@
 
 }
 
+/* Footer section  */
+.footer-container {
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding: 100px 360px;
+}
+.footer-title { 
+    font-size: 40px;
+    font-weight: 800;
+    color: #fffefe;
+    padding-bottom: 5px;
+}
+.footer-title span{ 
+    color: rgb(250, 40, 93);
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    font-size: 18px;
+}
+
+.footer-copy{ 
+
+    font-size: 17px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
