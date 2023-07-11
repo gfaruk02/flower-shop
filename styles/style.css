@@ -4,13 +4,12 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
 }
 .main-title { 
     font-size: 36px;
     font-weight: 800;
     color: #282828;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .main-description {
     font-size: 18px;
@@ -154,7 +153,7 @@
 
 /* social media section  */
 .social-container {
-    margin: 150px 150px 120px 150px;
+    margin: 150px 150px 40px 150px;
     text-align: center;
 }
 .social-container > .main-description {
@@ -172,3 +171,47 @@
 .social-content img {
     width: 260px;
 }
+
+/* Latest Deals section  */
+.latest-deals-container {
+    margin: 0px 140px 50px 140px;
+    text-align: center;
+}
+
+.latest-deals-content {
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100%;
+    padding: 180px 250px;
+}
+
+.latest-deals-content form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+
+}
+.latest-deals-content #email {
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+
+}
+.latest-deals-content .btn-subs {
+    padding: 12px 36px;
+    border-radius: 8px;
+    background-color: rgb(235, 68, 110);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
