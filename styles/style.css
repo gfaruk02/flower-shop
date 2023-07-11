@@ -113,9 +113,69 @@
 .featured-box-items a:hover {
     color: rgb(218, 3, 57);
 }
+
+/* occasions section */
+.occasions-container{
+    margin: 0px 130px 100px 130px;
+    padding: 40px 0px;
+    text-align: center;
+}
+.occasions-content{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.occasions-container > .main-description { 
+    padding: 0px 110px 30px 110px;
+}
+
+.occasions-content-box {
+   width: 250px;
+   height: 410px;
+   margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px gray;
+    
+}
+.occasions-content-box:hover{
+    /* background-color: rgba(197, 195, 195, 0.2); */
+    background-color: rgba(240, 81, 81, 0.1);
+}
+.occasions-content-box h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+}
+.occasions-content-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 15px 5px;
+    text-align: center;
+    color: #474747;
+}
+.occasions-content-box img {
+    width: 220px;
+    height: 220px;
+
+}
+.btn-occasions {
+    padding: 12px 20px;
+    background-color: rgb(235, 68, 110);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+.btn-occasions:hover {
+    background-color: rgb(252, 16, 75);
+}
 /* support section */
 .support-container {
-    margin: 40px 130px 120px 130px;
+    margin: 0px 130px 120px 130px;
     padding: 50px 10px;
     display: flex;
     justify-content: space-around;
@@ -142,7 +202,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(212, 159, 159, 0.3);
+    background-color: rgba(220, 20, 20, 0.1);
     padding: 100px 160px;
     height: 40vh;
     text-align: center;
@@ -197,7 +257,12 @@
     background-size: 100%;
     padding: 180px 250px;
 }
-
+.latest-deals-content > .main-title{
+    padding-bottom: 10px;
+}
+.latest-deals-content > .main-description{
+    padding-bottom: 5px;
+}
 .latest-deals-content form {
     display: flex;
     justify-content: space-around;
