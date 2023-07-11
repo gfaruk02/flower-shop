@@ -14,7 +14,7 @@
 }
 .main-description {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 27px;
     padding-bottom: 30px;
     color: rgba(20, 20, 20, 0.8);
 }
@@ -109,7 +109,7 @@
 }
 /* support section */
 .support-container {
-    margin: 40px 150px;
+    margin: 40px 150px 120px 150px;
     padding: 50px 10px;
     display: flex;
     justify-content: space-around;
@@ -126,4 +126,28 @@
     font-weight: 600;
 }
 
-/* sell up section  */
+/* sale up section  */
+.sale-up-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(212, 159, 159, 0.3);
+    padding: 100px 160px;
+    height: 40vh;
+    text-align: center;
+
+}
+.sale-up-content { 
+    padding-top: 35px;
+}
+.sale-up-content Span{ 
+    color: rgb(245, 42, 92);
+}
+.sale-up-content > .main-description{
+   padding: 0 80px 15px 0;
+}
+.sale-up-photo > img{ 
+    width: 270px;
+    height: 350px;
+  
+}
